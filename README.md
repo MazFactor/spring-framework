@@ -1,3 +1,13 @@
+#写在前面
+源码是从Spring官方Github Fork过来，本地编译通过后并添加了ClassPathXmlApplicationContext和AnnotationConfigApplicationContext测试示例。本地编译环境如下：
+* IDE：Intellij Idea 2020.1
+* Gradle：5.6.4-all
+* Kotlin: 1.6
+
+在idea设置中配置Gradle为“'gradle-wrapper.properties'file”，即build时从网上下载，使用gradle/wrapper目录下的gradle-wrapper.properties文件中默认指定的版本gradle-5.6.4-all。中间出现过jar下载超时错误，reimport后成功！
+
+Kotlin同样在idea的File-Settings中设置Kotlin Compiler为1.6。
+
 # <img src="src/docs/asciidoc/images/spring-framework.png" width="80" height="80"> Spring Framework [![Build Status](https://build.spring.io/plugins/servlet/wittified/build-status/SPR-PUBM)](https://build.spring.io/browse/SPR)
 
 This is the home of the Spring Framework: the foundation for all [Spring projects](https://spring.io/projects). Collectively the Spring Framework and the family of Spring projects are often referred to simply as "Spring". 
